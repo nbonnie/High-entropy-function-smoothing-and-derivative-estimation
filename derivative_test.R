@@ -62,7 +62,7 @@ slope <- function(x,y) {
   return(t(desti))
 }
 
-aapl <- readRDS('~/R/NolansDTF.rds')
+aapl <- readRDS('~/R/Test_Data.rds')
 aapl <- aapl %>% filter(ticker == "AAPL") %>% select(close) # 241 observations
 
 aapl$seq <- seq(1,nrow(aapl))
