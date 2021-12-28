@@ -31,7 +31,7 @@ Sometimes, a very high-entropy function will need to be smoothed a few times. I 
 Below you can see the progression of the different smoothing functions.
 
 ## Smoothing Progression
-The red function is the first smooth, orange is the second, green is third, and purple is the 4th (and most smoothed). Note that due to the sequential nature of the data, ggplot geom_line appears more jagged than it really it.
+The red function is the first smooth, orange is the second, green is third, and purple is the 4th (and most smoothed). Note that due to the sequential nature of the data, ggplot geom_line appears more jagged than it really is.
 ![img_loess](https://github.com/nbonnie/High-entropy-function-smoothing-and-derivative-estimation/blob/main/plots/boot_progression.png?raw=true)
 
 
